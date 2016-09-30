@@ -1,14 +1,14 @@
-<span class="nt"><nav</span> <span class="na">class=</span><span class="s">"navbar navbar-default"</span> <span class="na">role=</span><span class="s">"navigation"</span><span class="nt">></span>
-  <span class="nt"><div</span> <span class="na">class=</span><span class="s">"container-fluid"</span><span class="nt">></span>
-    <span class="c"><!-- Brand and toggle get grouped for better mobile display --></span>
-    <span class="nt"><div</span> <span class="na">class=</span><span class="s">"navbar-header"</span><span class="nt">></span>
-      <span class="nt"><a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">></span>Rails 101<span class="nt"></a></span>
-    <span class="nt"></div></span>
-    <span class="c"><!-- Collect the nav links, forms, and other content for toggling --></span>
-    <span class="nt"><div</span> <span class="na">class=</span><span class="s">"collapse navbar-collapse"</span> <span class="na">id=</span><span class="s">"bs-example-navbar-collapse-1"</span><span class="nt">></span>
-      <span class="nt"><ul</span> <span class="na">class=</span><span class="s">"nav navbar-nav navbar-right"</span><span class="nt">></span>
-        <span class="nt"><li></span> <span class="cp"><%=</span> <span class="n">link_to</span><span class="p">(</span><span class="s2">"登入"</span><span class="p">,</span> <span class="s1">'#'</span><span class="p">)</span> <span class="cp">%></span> <span class="nt"></li></span>
-      <span class="nt"></ul></span>
-    <span class="nt"></div></span><span class="c"><!-- /.navbar-collapse --></span>
-  <span class="nt"></div></span><span class="c"><!-- /.container-fluid --></span>
-<span class="nt"></nav></span>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Rails 101</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to("登入", '#') %></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
