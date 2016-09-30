@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "simple_form"
 #Rails 101 reconmannd form gem
 
+gem "devise", "~> 4.0.0 "
+#Rails 101 reconmannd login/out gem
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
